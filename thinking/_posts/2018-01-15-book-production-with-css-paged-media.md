@@ -6,7 +6,7 @@ excerpt: When we make books in multiple formats – print, epub, website, and ap
 
 # Book production with CSS Paged Media
 
-*These are slides and notes for a presentation I gave at a [Paged Media meeting in Boston on 9 January 2018](https://www.pagedmedia.org/paged-media-open-source-initiative/). The meeting, organised by the [Collaborative Knowledge Foundation](http://coko.foundation) and funded by the [Shuttleworth Foundation](http://shuttleworthfoundation.org), aimed to kick-start an open-source community around book production using CSS Paged Meda. I gave participants an overview of how we use HTML and CSS Paged Media to produce print books in particular. Erich van Rijn from the University of Califormia Press has written [a good overview of the event](https://www.pagedmedia.org/towards-an-open-future-for-automated-typsetting-highlights-from-paged-media-event-january-9th-2018/).*
+*These are slides and notes for a presentation I gave at a [Paged Media meeting in Boston on 9 January 2018](https://www.pagedmedia.org/paged-media-open-source-initiative/). The meeting, organised by the [Collaborative Knowledge Foundation](http://coko.foundation) and funded by the [Shuttleworth Foundation](http://shuttleworthfoundation.org), aimed to kick-start an open-source community around book production using CSS Paged Media. I gave participants an overview of how we use HTML and CSS Paged Media to produce print books in particular. Erich van Rijn from the University of California Press has written [a good overview of the event](https://www.pagedmedia.org/towards-an-open-future-for-automated-typsetting-highlights-from-paged-media-event-january-9th-2018/).*
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-01.jpg)
 
@@ -30,7 +30,7 @@ So we need to be able to produce beautiful typography…
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-04.jpg)
 
-… and design effects like the spattered-ink effect in this novel, *Knucklebone* (Pan Macmillan). In our source files, we use an SVG here with placed with `position: absolute`. We then have four spatter variations that we alternate between chapters.
+… and design effects like the spattered-ink effect in this novel, *Knucklebone* (Pan Macmillan). In our source files, we use an SVG here, placed with `position: absolute`. We then have four spatter variations that we alternate between chapters.
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-05.jpg)
 
@@ -82,9 +82,9 @@ We use Sass variables to apply different suffixes to layout-control classes for 
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-13.jpg)
 
-The most challenging books to produce with HTML and CSS are complex textbooks, like *The Economy*, which we produced for [CORE](http://core-econ.org), and the print edition of which is published by Oxford University Press.
+The most challenging books to produce with HTML and CSS are complex textbooks, like [*The Economy*](http://www.core-econ.org/the-economy/), which we produced as a website and a print edition for [CORE](http://core-econ.org), with the print edition published by Oxford University Press.
 
-Here we started with our existing library of CSS styles for basic book production, and then wrote thousands of lines of custom Sass to create the page layout and allow for the many possible interactions that might appear in the book. For instance, paragraph have to know when to be indented and when to be flush left, depending on which elements precede it in the HTML.
+Here we started with our existing library of CSS styles for basic book production, and then wrote thousands of lines of custom Sass to create the page layout and allow for the many possible interactions that might appear in the book. For instance, paragraphs have to know when to be indented and when to be flush left, depending on which elements precede it in the HTML.
 
 Here, we relied heavily on PrinceXML's awareness of `inside` and `outside` for rules for margins and floats, which are critical for creating a mirrored-double-page-spread design like this.
 
@@ -92,7 +92,7 @@ Here, we relied heavily on PrinceXML's awareness of `inside` and `outside` for r
 
 Perhaps the biggest challenge with this book was to keep in mind that it would be a website and a PDF. Each format needed to be built from the same source, but needed to behave differently.
 
-For instance, on the website many figures are interactive, clickable filmstrips. Where in PDF we show a single, summary image with numbered blocks of text below for each slide in the filstrip.
+For instance, on the website many figures are interactive, clickable filmstrips. Where in PDF we show a single, summary image with numbered blocks of text below for each slide in the filmstrip.
 
 We also had to develop convenient ways to display certain hyperlinks as page numbers and visible URLs in the print output. Thanks to CSS Paged Media, these page references are entirely dynamic: if we add text that causes pages to reflow, the page numbers will update automatically.
 
@@ -111,13 +111,13 @@ We call our process the Electric Book workflow. In this workflow, to produce PDF
 
 Each project is stored and version controlled in Git, and usually hosted on GitHub.
 
-For our other output formats (epub, web, app), we just run Jekyll with a different configuration. Many of our templates are aware of the output format we're building for, and they adjust the HTML they output accordingly. For instance, in print a video will appear as a screenshot and caption; whereas on the web the video will be clickable and will stream directly from, say, YouTube or Vimeo.
+For our other output formats (epub, web, app), we just run Jekyll with a different configuration. Many of our templates are aware of the output format we're building for, and they adjust the HTML they output accordingly. For instance, in print, a video will appear as a thumbnail and caption; whereas on the web the video will be clickable and will stream directly from, say, YouTube or Vimeo.
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-16.jpg)
 
-To make design a new book efficient, we start with a library of default styles, which are written in Sass. These define what we'd call basic book-design best practice – a vanilla book.
+To make designing a new book efficient, we start with a library of default styles, which are written in Sass. These define what we'd call basic book-design best practice – a vanilla book.
 
-When compiled as CSS, these styles are several thousands of code, so there is a fair bit of complexity there. But that's what two-thousand years of book design will do.
+When compiled as CSS, these styles are several thousands lines of code, so there is a fair bit of complexity there. But that's what two-thousand years of book design will do.
 
 For each book, we can set about a hundred book-design variables that feed into the compiled CSS. These include things like page height and width, PDF profile, fonts, colours, and the behaviour of running headers.
 
@@ -135,7 +135,7 @@ For instance: on the web, hyperlinks are cheap: you can add them anywhere, attac
 
 Like many publishers, we've had to invest a lot in training our team in multi-format thinking.
 
-**Second, manual page refinement is time-consuming.** Automated layout with CSS gets us far, taking care of perhaps 90 per cent of a traditional typesetter's role. But after that a human still has to check every page and refine many of them. On *The Economy*, I spent three or four hours on each chapter making small tweaks to get figures and sidenotes to fall in just the right place for maximum reability. On most novels, we spend at least three or four hours manually adjusting letter-spacing and soft hyphenation to avoid bad breaks, widows, orphans, and short lines.
+**Second, manual page refinement is time-consuming.** Automated layout with CSS gets us far, taking care of perhaps 90 per cent of a traditional typesetter's role. But after that a human still has to check every page and refine many of them. On *The Economy*, I spent three or four hours on each chapter making small tweaks to get figures and sidenotes to fall in just the right place for maximum readability. On most novels, we spend at least three or four hours manually adjusting letter-spacing and soft hyphenation to avoid bad breaks, widows, orphans, and short lines.
 
 If there is one thing we need better automation for, it's proper, typographically sensitive widow-and-orphan control.
 
@@ -151,7 +151,7 @@ One way to reduce dependency on developers is to build tools to do the heavy lif
 
 On an EBM, non-technical users can edit text, output PDF and web versions of their books, and collaborate on editing. The EBM stores each user's copy of the project in their own GitHub account, and behind the scenes uses GitHub pull requests for collaboration and review.
 
-This Git-based collaboration is often crucial. For instance, when we produced the 1500-page book *The Economy* in under ten months, we had four editors and two designers working on the same files at the same time, something that would have bene impossible in a traditional workflow.
+This Git-based collaboration is often crucial. For instance, when we produced the 1500-page book *The Economy* in under ten months, we had four editors and two designers working on the same files at the same time, something that would have been impossible in a traditional workflow.
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-20.jpg)
 
