@@ -6,7 +6,7 @@ excerpt: When we make books in multiple formats – print, epub, website, and ap
 
 # Book production with CSS Paged Media
 
-*These are slides and notes for a presentation I gave at a [Paged Media meeting in Boston on 9 January 2018](https://www.pagedmedia.org/paged-media-open-source-initiative/). The meeting, organised by the [Collaborative Knowledge Foundation](http://coko.foundation) and funded by the [Shuttleworth Foundation](http://shuttleworthfoundation.org), aimed to kick-start an open-source community around book production using CSS Paged Media. I gave participants an overview of how we use HTML and CSS Paged Media to produce print books in particular. Erich van Rijn from the University of California Press has written [a good overview of the event](https://www.pagedmedia.org/towards-an-open-future-for-automated-typsetting-highlights-from-paged-media-event-january-9th-2018/).*
+*These are slides and notes for a presentation I gave at a [Paged Media meeting in Boston on 9 January 2018](https://www.pagedmedia.org/paged-media-open-source-initiative/). The meeting, organised by the [Collaborative Knowledge Foundation](http://coko.foundation) and funded by the [Shuttleworth Foundation](http://shuttleworthfoundation.org), aimed to kick-start an open-source community centred around book production using CSS Paged Media. I gave participants an overview of how we use HTML and CSS Paged Media to produce print books in particular. Erich van Rijn from the University of California Press has written [a good overview of the event](https://www.pagedmedia.org/towards-an-open-future-for-automated-typsetting-highlights-from-paged-media-event-january-9th-2018/).*
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-01.jpg)
 
@@ -84,7 +84,7 @@ We use Sass variables to apply different suffixes to layout-control classes for 
 
 The most challenging books to produce with HTML and CSS are complex textbooks, like [*The Economy*](http://www.core-econ.org/the-economy/), which we produced as a website and a print edition for [CORE](http://core-econ.org), with the print edition published by Oxford University Press.
 
-Here we started with our existing library of CSS styles for basic book production, and then wrote thousands of lines of custom Sass to create the page layout and allow for the many possible interactions that might appear in the book. For instance, paragraphs have to know when to be indented and when to be flush left, depending on which elements precede it in the HTML.
+Here we started with our existing library of CSS styles for basic book production, and then wrote thousands of lines of custom Sass to create the page layout and allow for the many possible interactions that might appear in the book. For instance, a paragraph has to know when to be indented and when to be flush left, depending on which elements precede it in the HTML.
 
 Here, we relied heavily on PrinceXML's awareness of `inside` and `outside` for rules for margins and floats, which are critical for creating a mirrored-double-page-spread design like this.
 
@@ -131,7 +131,7 @@ I love the many small, technical puzzles that designing books with CSS presents.
 
 **First, multiformat thinking is hard.** The whole point of our digital-first approach is to store content only once, and produce multiple formats automatically. This puts tremendous pressure on project managers, developers, authors, editors, designers and proofreaders to think in multiple formats at once.
 
-For instance: on the web, hyperlinks are cheap: you can add them anywhere, attach them to any text, and the design can keep them out of the reader's way. In print, hyperlinks vanish or, if presented as page numbers, take up space and attention. Another example I mentioned above is interactivity: the text in the filmstrip figures in *The Economy* has to be sensitive to the fact that readers might be looking at clickable slides or at a static, printed page. And when controlling the flow of text, editors have to be aware of things like what happens when an element is floated: it appears beside the text it *precedes* in HTML, which can be counterintuitive for things like sidenotes beside paragraphs.
+For instance, on the web, hyperlinks are cheap: you can add them anywhere, attach them to any text, and the design can keep them out of the reader's way. In print, hyperlinks vanish or, if presented as page numbers, take up space and attention. Another example I mentioned above is interactivity: the text in the filmstrip figures in *The Economy* has to be sensitive to the fact that readers might be looking at clickable slides or at a static, printed page. And when controlling the flow of text, editors have to be aware of things like what happens when an element is floated: it appears beside the text it *precedes* in HTML, which can be counterintuitive for things like sidenotes beside paragraphs.
 
 Like many publishers, we've had to invest a lot in training our team in multi-format thinking.
 
