@@ -6,7 +6,7 @@ excerpt: When we make books in multiple formats – print, epub, website, and ap
 
 # Book production with CSS Paged Media
 
-*These are slides and notes for a presentation I gave at a [Paged Media meeting in Boston on 9 January 2018](https://www.pagedmedia.org/paged-media-open-source-initiative/). The meeting, organised by the [Coko Foundation](http://coko.foundation) and funded by the [Shuttleworth Foundation](http://shuttleworthfoundation.org), was to kick-start an open-source community around book production using CSS Paged Meda. And my aim was to give participants an overview of how we use HTML and CSS Paged Media to produce print books in particular. Erich van Rijn from the University of Califormia Press has written [a good overview of the event](https://www.pagedmedia.org/towards-an-open-future-for-automated-typsetting-highlights-from-paged-media-event-january-9th-2018/).*
+*These are slides and notes for a presentation I gave at a [Paged Media meeting in Boston on 9 January 2018](https://www.pagedmedia.org/paged-media-open-source-initiative/). The meeting, organised by the [Collaborative Knowledge Foundation](http://coko.foundation) and funded by the [Shuttleworth Foundation](http://shuttleworthfoundation.org), aimed to kick-start an open-source community around book production using CSS Paged Meda. I gave participants an overview of how we use HTML and CSS Paged Media to produce print books in particular. Erich van Rijn from the University of Califormia Press has written [a good overview of the event](https://www.pagedmedia.org/towards-an-open-future-for-automated-typsetting-highlights-from-paged-media-event-january-9th-2018/).*
 
 ![]({{ site.baseurl }}/images/presentation-boston-201801-multiformat-book-production-01.jpg)
 
