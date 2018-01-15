@@ -1,0 +1,5 @@
+<textarea
+          onkeyup="textAreaAdjust(this)"
+          class="expanding"
+          placeholder="{{ include.placeholder }}">
+</textarea>

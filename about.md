@@ -20,10 +20,6 @@ Through love, design and technology, Fire and Lion creates and delivers books an
 **Jennifer Jacobs** is a designer and social-media strategist, and a graduate of Rhodes University's acclaimed journalism school. She is also the founder and designer behind [Afternoon](https://afternoon.co.za/), an independent sewing-pattern label. Mail&nbsp;[jennifer@fireandlion.com](mailto:jennifer@fireandlion.com).
 {:.bio}
 
-![Steve Barnett]({{ site.baseurl}}/images/steve.jpg)
-**Steve Barnett** is front-end developer and user-experience person. He’s been building things for the web for over ten years, for screens large and small. He’s worked on a wide range of applications and sites across many and varied technology stacks. He has a degree in mathematics from the University of Sussex in the UK. Mail&nbsp;[steve@fireandlion.com](mailto:steve@fireandlion.com).
-{:.bio}
-
 ![Christina Tromp]({{ site.baseurl}}/images/christina.jpg)
 **Christina Tromp** is a writer and editor who believes in the power of good books and websites. She has an honours degree in politics, philosophy and economics from the University of Cape Town. Mail&nbsp;[christina@fireandlion.com](mailto:christina@fireandlion.com).
 {:.bio}

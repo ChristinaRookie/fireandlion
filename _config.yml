@@ -17,6 +17,11 @@ package-lock.json,
 node_modules,
 gulpfile.js,
 eslint.json,
+# images
+]
+
+keep_files: [
+# images
 ]
 
 # Set default page layout for all pages

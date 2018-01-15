@@ -173,8 +173,11 @@ body {
 #markdown-toc, .page-toc {
 	list-style-type: none;
 	padding: 0;
-	li li {
-		list-style-type: none;
+	ul {
+		margin-bottom: 0;
+		li {
+			list-style-type: none;
+		}
 	}
 }
 
@@ -342,6 +345,14 @@ blockquote {
 blockquote p, blockquote ol, blockquote ul {
 	font-style: italic;
 }
+dl {
+	dt {
+		font-style: italic;
+	}
+	dd {
+		margin-bottom: 1em * $line-height;
+	}
+}
 strong {
 	font-weight: 600;
 	@include smallcaps();
@@ -354,6 +365,18 @@ hr {
 	border-bottom: 0; // override user-agent styles
 	width: 30%;
 	margin: 3em auto;
+}
+
+// Text features
+
+.pullquote {
+	font-size: 1em * $line-height;
+	padding: 1em;
+	margin-bottom: 1em;
+}
+.fineprint {
+	font-size: 0.9em;
+	font-style: italic;
 }
 
 // Buttons
@@ -388,6 +411,7 @@ a.button:hover {
 table {
 	width: 100%;
 	border-collapse: collapse;
+	margin-bottom: 1em * $line-height;
 }
 tr {
 	border-top: 1px dashed $dark;
@@ -398,6 +422,23 @@ th {
 }
 td {
 	padding-right: 0.5em;
+	vertical-align: top;
+}
+
+// Inputs
+
+textarea {
+	width: 100%;
+	padding: 0.5em;
+	font-family: $font-main;
+	font-size: inherit;
+	border: 1px dashed $mid;
+}
+
+// For textarea include, in concert with textarea.js
+textarea.expanding {
+	min-height: 5em;
+	overflow:hidden;
 }
 
 // Images
@@ -621,6 +662,7 @@ td {
 @media print { 
 	.sidebar {
 		background-color: white;
+		box-shadow: none;
 		.name {
 			color: black;
 			font-size: 2em;

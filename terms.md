@@ -20,46 +20,46 @@ In this agreement, ‘we’ means both parties, Fire and Lion and the client tog
 
 This agreement sets out the general terms and conditions of our working relationship. Its terms govern each project we undertake together. Each project should have its own specific terms and project deliverables, which will be detailed in a project specification document or a written brief from you, and costed on formal quotations. We refer to the material we create together in any given project as ‘the work’.
 
-## No licenses granted
+## Copyright and licensing
 
-Neither of us is granting the other a license or exclusive right to the work we contribute to project deliverables. You are only contracting Fire and Lion to produce the deliverables noted in project specifications. 
-
-## Copyright and attribution
+You are contracting Fire and Lion to produce the deliverables noted in project specifications. 
 
 Some elements in your project are yours, and some are Fire and Lion's:
 
 -	You retain the copyright in all material (e.g. text and illustrations) that you own and provide for the work; and you retain all overarching licenses that allow you to enter into this agreement as the owner of the work.
 -	Fire and Lion retains copyright in the elements it provides for the work from its own resources (e.g. design, get-up, computer code, and text and illustrations that don’t form part of the source material provided by you).
--	Where Fire and Lion (or anyone we commission) creates specific elements (e.g. designs, images, text) that you have specified and commissioned, as detailed in the project specification, and they are fully paid for, we share the copyright in those elements unless the project specification explicitly states otherwise. 
+-	Where Fire and Lion (or anyone we commission) creates specific deliverables or works, including composite works, (e.g. designs, images, text) that you have specified and commissioned, as detailed in the project specification, and they have been fully paid for and included in the finished work, you will be licensed to use them in their finished form on a perpetual, transferable, royalty-free basis, unless the project specification explicitly states otherwise or we sign a separate [assignment agreement]({{ site.baseurl }}/assignment).
 
 Fire and Lion may publicly display samples of the work as part of Fire and Lion’s portfolio of work, after publication and as long as those samples would not reasonably affect your interests (e.g. sales of the finished work). 
 
-## Writing and production
+## Source material and warranties
 
 By an agreed date, you will provide all the original material (including, for example, text and illustrations or clear briefs for their creation) for the work. Fire and Lion will produce project deliverables within an agreed amount of time. These dates and times are noted in each project specification and/or on shared project-management systems.
 
 If you borrow material belonging to others, you will give Fire and Lion copies of the written permission obtained to use it. If the borrowed material can be used under an appropriate open licence (such as a Creative Commons Attribution licence), you will give Fire and Lion copies of the open-licence wording. You will keep a copy of everything you provide, and Fire and Lion will be careful to transport and store safely what they receive.
 
-You warrant that:
+We both warrant to each other that:
 
--	the material you provide is original (except material borrowed with permission or under an appropriate open licence)
+-	the material we provide is original (except material borrowed with permission or under an appropriate open licence)
 -	the material won’t impair anyone else’s rights
 -	the material is not defamatory or libellous
--	you have the power to make this agreement. 
+-	we have the power to make this agreement. 
 
 Material may include (and is not limited to) text, images, video, domain names, trademarks and computer code.
 
-You indemnify Fire and Lion, its agents and employees, and hold them harmless, against any loss or cost, including legal fees, arising out of a breach (or a claim of breach) of these warranties.
+Each of us indemnifies the other, their agents and employees, and hold them harmless, against any loss or cost, including legal fees, arising out of a breach (or a claim of breach) of these warranties.
 
-If Fire and Lion believes you have breached these warranties,  or you use material belonging to others without their permission, or in any other way plagiarise another’s intellectual property in preparing the work, Fire and Lion may decide not to continue with this project. If this happens, Fire and Lion may suspend all maintenance services and recover from you any costs already incurred, and may use any legal measures to do so.
+If one of us believes the other has breached these warranties, or uses material belonging to others without their permission, or in any other way plagiarises a third party's intellectual property in preparing the work, either of us may decide not to continue with this project. If this happens, Fire and Lion may suspend all maintenance services, and each of us may recover from the other any costs already incurred, and may use any legal measures to do so.
+
+## Review of work
 
 In the course of producing project deliverables, Fire and Lion may provide services that include editorial support, advice, and professional proofreading and illustration. Fire and Lion may edit, add to, and delete from the work, submitting changes to you for approval. You won’t unreasonably withhold approval, and will provide feedback promptly. 
 
 You will read the laid-out work carefully before the work is made public. You are responsible for ensuring the accuracy of all information when you create and check the work.
 
-**If Fire and Lion does not receive any feedback on a project deliverable within two weeks of delivery, the project deliverable is considered accepted and complete.** Fire and Lion may then charge a fee for any changes you make subsequently.
+**If Fire and Lion does not receive any feedback on a project deliverable within two weeks of delivery, or another time period agreed in writing, then the project deliverable is considered accepted and complete.** Fire and Lion may then charge a fee for any changes you make subsequently.
 
-Fire and Lion is responsible for devoting  its full available expertise to decisions about the production and design of the finished work. Fire and Lion will consult you about the design of the published work, but may need to make final decisions about design and production values according to what Fire and Lion reasonably believes is in your best interests.
+Fire and Lion is responsible for devoting its full available expertise to decisions about the production and design of the finished work. Fire and Lion will consult you about the design of the published work, but may need to make final decisions about design and production values according to what Fire and Lion reasonably believes is in your best interests.
 
 ## Payment
 
@@ -127,7 +127,7 @@ If a court decides that part of this agreement is not valid, that decision does 
 
 If we have any disputes, we will resolve them first through direct discussion, then arbitration if absolutely necessary. We will agree on the arbitrator. The dispute will be resolved finally by the arbitrator, whose decision will be binding. During a dispute, you will continue to pay for ongoing maintenance services.
 
-This is the only agreement we have between us regarding the work. It replaces and supersedes any other agreements. 
+This is the only agreement we have between us regarding the work, replacing and superseding any other agreements unless those other agreements are subject to this one, made in writing, and signed by both parties. In the event of a conflict between this agreement and another agreement, this agreement takes precedence.
 
 This agreement is subject to the laws of the Republic of South Africa.
 

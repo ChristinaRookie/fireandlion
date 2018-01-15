@@ -8,7 +8,7 @@ excerpt: "Very rarely, a book-maker gets to add new tricks to the 500-year-old c
 
 I'm a book-maker, which, for the most part, means I turn Word documents and Powerpoint slides into books. These days, my team and I also turn them into websites and ebooks. To do it well, we draw on 500 years of book-making craft. And very rarely we get to try to add something to that craft.
 
-The CORE project – specifically, the production of their textbook *The Economy* – has enabled us to do really exciting, perhaps pioneering, book-making work. This is a quick introduction to our approach. It touches on:
+The CORE project – specifically, [the production of their textbook *The Economy*]({{ site.baseurl }}/portfolio/core) – has enabled us to do really exciting, perhaps pioneering, book-making work. This is a quick introduction to our approach. It touches on:
 
 1. [the relationship between print and digital](#the-relationship-between-print-and-digital)
 2. [the challenge of publishing to print and the web simultaneously](#publishing-to-print-and-web-simultaneously)

@@ -6,7 +6,7 @@ style: home
 
 # Screen and paper book design
 
-We help publishers and impact organisations tell powerful stories, using&nbsp;world-class design and sensible technology to produce books, ebooks&nbsp;and websites.
+We turn your content into world-class books, ebooks and websites. Our&nbsp;clients include publishers and impact organisations who need to deliver extraordinary publications in multiple formats.
 
 [See our work]({{site.baseurl}}/portfolio){:.button}
 [Meet our team]({{site.baseurl}}/about#our-team){:.button}{% include latest-post-button.html %}
