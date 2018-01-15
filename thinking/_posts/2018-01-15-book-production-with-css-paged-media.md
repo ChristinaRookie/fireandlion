@@ -117,7 +117,7 @@ For our other output formats (epub, web, app), we just run Jekyll with a differe
 
 To make designing a new book efficient, we start with a library of default styles, which are written in Sass. These define what we'd call basic book-design best practice – a vanilla book.
 
-When compiled as CSS, these styles are several thousands lines of code, so there is a fair bit of complexity there. But that's what two-thousand years of book design will do.
+When compiled as CSS, these styles are several thousand lines of code, so there is a fair bit of complexity there. But that's what two-thousand years of book design will do.
 
 For each book, we can set about a hundred book-design variables that feed into the compiled CSS. These include things like page height and width, PDF profile, fonts, colours, and the behaviour of running headers.
 
